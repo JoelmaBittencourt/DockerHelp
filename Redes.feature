@@ -15,3 +15,8 @@ docker logs + nome do container = analisa dados armazenados locais em um determi
 docker logs -f setup resources
 docker attach +_id do container
 
+Descobrindo conflitos
+Você pode encontrar facilmente quais endereços IP estão sendo usados ​​por sua rede local ou VPN usando route -n. Conecte-se à sua VPN primeiro e execute este comando.
+
+$ route -n
+
